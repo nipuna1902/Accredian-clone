@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Page (Partial Clone)
 
-## Getting Started
+## 🚀 Live Demo
 
-First, run the development server:
+🔗 https://your-vercel-link.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💻 GitHub Repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 https://github.com/your-username/accredian-enterprise-clone
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Objective
 
-## Learn More
+This project is a partial clone of the Accredian Enterprise website, built using Next.js.
+The goal was to recreate the landing page with a focus on clean UI, responsiveness, reusable components, and smooth user experience.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Next.js (App Router)
+* React (Functional Components + Hooks)
+* Tailwind CSS
+* Next.js API Routes (for form handling)
+* Vercel (Deployment)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Setup Instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   git clone https://github.com/your-username/accredian-enterprise-clone.git
+   cd accredian-enterprise-clone
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
+
+4. Open in browser:
+   http://localhost:3000
+
+---
+
+## 🧠 Approach Taken
+
+The project was built with a component-based architecture for better reusability and maintainability.
+
+* Each section (Hero, Stats, Clients, etc.) was created as a separate component
+* Navigation uses smooth scrolling with active section highlighting
+* Responsive design was implemented using Tailwind’s utility classes
+* Focus was given to spacing, typography, and visual consistency rather than pixel-perfect cloning
+* Interactive elements like modals, animations, and hover effects were added to improve user experience
+
+---
+
+## 🔌 API Integration
+
+A mock API was implemented using Next.js API routes:
+
+/api/enquiry
+
+* Handles form submission from the "Enquire Now" modal
+* Accepts POST requests and logs data on the server
+* Simulates a real backend interaction
+
+---
+
+## 🤖 AI Usage
+
+AI tools (primarily ChatGPT) were used selectively during development.
+
+* Used for:
+
+  * Quick debugging and resolving minor errors
+  * Generating base structures for some UI components
+  * Clarifying Next.js and Tailwind concepts
+
+* Not relied on for:
+
+  * Overall architecture
+  * Component structuring
+  * UI/UX decisions
+  * Debugging complex issues (handled manually with understanding)
+
+The majority of the implementation, styling decisions, and integration logic were done independently.
+
+---
+
+## ✨ Features Implemented
+
+* Fully responsive landing page (mobile + desktop)
+* Sticky navbar with active section highlight on scroll
+* Smooth scrolling navigation
+* Interactive Enquiry Modal with API integration
+* Animated sections (stats, cards, testimonials)
+* Mobile-friendly hamburger menu
+* Clean and structured component-based code
+
+---
+
+## 🚀 Improvements (If Given More Time)
+
+* Add form validation with error handling
+* Replace alert with toast notifications for better UX
+* Connect form to a real backend/database
+* Add accessibility improvements (ARIA roles, keyboard navigation)
+* Improve animation consistency using a library like Framer Motion
+* Optimize images and performance further
+
+---
+
+## 📌 Notes
+
+This project focuses on clean implementation, structure, and usability rather than exact pixel-perfect replication.
+
+---
+
+## 🙌 Thank You
