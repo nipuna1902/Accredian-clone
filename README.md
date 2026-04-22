@@ -2,11 +2,11 @@
 
 ## 🚀 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 accredian-clone-one.vercel.app
 
 ## 💻 GitHub Repository
 
-🔗 https://github.com/your-username/accredian-enterprise-clone
+🔗 https://github.com/nipuna1902/Accredian-clone
 
 ---
 
